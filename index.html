@@ -1,5 +1,139 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
 <body>
-  <h2>Gmain Pizza</h2>
+    <header>
+        <h2><img src="logo.png">Pizza Raza</h2>
+    </header>
+    <div class="content">
+        <div class="temphea"><h2>Nossas Pizzas</h2></div>
+        <div class="pizzas">
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="p0.png">
+                <h3 class="name">Fran & Catupiry</h3>
+                <h4 class="price">R$ 55</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="p1.png">
+                <h3 class="name">Pepperoni</h3>
+                <h4 class="price">R$ 45</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="p2.png">
+                <h3 class="name">Quatro Queijos</h3>
+                <h4 class="price">R$ 50</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="p3.png">
+                <h3 class="name">Mussarela</h3>
+                <h4 class="price">R$ 40</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="p4.png">
+                <h3 class="name">Portuguesa</h3>
+                <h4 class="price">R$ 55</h4>
+            </div>
+        </div>
+        <div class="temphea"><h2>Especiais</h2></div>
+        <div class="pizzas">
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="a0.png">
+                <h3 class="name">Marguarita</h3>
+                <h4 class="price">R$ 45</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="a1.png">
+                <h3 class="name">Camarão</h3>
+                <h4 class="price">R$ 60</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="a2.png">
+                <h3 class="name">California</h3>
+                <h4 class="price">R$ 45</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="a3.png">
+                <h3 class="name">Caipira</h3>
+                <h4 class="price">R$ 50</h4>
+            </div>
+            <div class="pizzabox" onclick="OrderPizza(event)">
+                <img src="a4.png">
+                <h3 class="name">Atum e Queijo</h3>
+                <h4 class="price">R$ 56</h4>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Pizza Raza</h2>
+        <h4>Contato</h4>
+        <p><strong>Email:</strong> contato@pizzaraza.com</p>
+        <p><strong>Instagram:</strong> @pizzarazaofficial</p>
+        <p><strong>Endereço:</strong> Berlin, Saatwinkler Damm, N 45</p>
+    </div>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
+        .content {
+            margin-left: 2vw;
+            height: 100%;
+        }
+        header {
+            background-color: rgb(161, 0, 0);
+            padding: 4vh 2vw;
+            color: white;
+        }
+        .temphea {
+            text-align: center;
+        }
+        header img {
+            max-height: 6vh;
+        }
+        .pizzas {
+            width: 90%;
+            margin-left: 6%;
+        }
+        .pizzabox {
+            cursor:pointer;
+            width: 12vw;
+            display: inline-block;
+            background-color: rgb(236, 236, 236);
+            border-radius: 2vh;
+            padding: 2vh 1vw;
+            margin-right: 2vw;
+        }
+        .pizzabox img {
+            width: 100%;
+            height: 100%;
+            border-radius: 1vw;
+        }
+        .pizzabox h3, h4 {
+            margin: 0;
+        }
+        header h2 {
+            margin: 0;
+        }
+        .footer h2 {
+            margin: 0;
+        }
+        .footer {
+            margin-left: 1%;
+            margin-top: 5vh;
+            width: 94%;
+            background-color: rgb(89, 0, 0);
+            color:white;
+            padding: 4vh 2vw;
+        }
+    </style>
 </body>
+
 </html>
